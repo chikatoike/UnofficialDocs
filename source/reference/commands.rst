@@ -195,6 +195,9 @@ Commands
 **reindent**
 	XXX ??? XXX
 
+	- **single_line** [Bool]: XXX
+	- **force_indent** [Bool]: XXX
+
 **indent**
 	Increments indentation.
 
