@@ -347,18 +347,28 @@ Commands
 **next_bookmark**
 	Select the next bookmarked region.
 
+	- **name** [String]: Optional. The name of bookmarked region.
+
 **prev_bookmark**
 	Select the previous bookmarked region.
+
+	- **name** [String]: Optional. The name of bookmarked region.
 
 **toggle_bookmark**
 	Sets or unsets a bookmark for the active region(s). (Bookmarks can be
 	accessed via the regions API using ``"bookmarks"`` as the key.)
 
+	- **name** [String]: Optional. The name of bookmarked region.
+
 **clear_bookmarks**
 	Removes all bookmarks.
 
+	- **name** [String]: Optional. The name of bookmarked region.
+
 **select_all_bookmarks**
 	Selects all bookmarked regions.
+
+	- **name** [String]: Optional. The name of bookmarked region.
 
 **wrap_lines**
 	Wraps lines. By default, it wraps lines at the first ruler's column.
