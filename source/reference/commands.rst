@@ -255,6 +255,7 @@ Commands
 	- **panel** [Enum]: Values: incremental_find, find, replace, find_in_files, console
 	- **reverse** [Bool]: Whether to search backwards in the buffer.
 	- **toggle** [Bool]: Whether to hide the panel if it's already visible.
+	- **where** [String]: XXX
 
 **find_next**
 	Finds the next occurrence of the current search term.
